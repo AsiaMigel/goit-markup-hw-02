@@ -149,7 +149,7 @@ cursor: pointer;
 
                              /* Section 1 */
 
-.container.hero-title {
+.hero .container .hero-title {
 color: var(--main-color);
 font-family: 'Roboto',sans-serif;
 font-style: normal;
