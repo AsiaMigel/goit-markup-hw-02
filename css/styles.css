@@ -85,29 +85,8 @@ text-decoration: none;
 }
 
 
-                                         /* Hero */
-
 .hero {
 background-color:var(--title-text-color);
-}
-
-.container .hero-title {
-    color: var(--main-color);
-    font-weight: 600;
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    }
-
-                                       /* Section 1*/
-.section-title {
-color: var(--title-text-color);
-font-weight: 600;
-font-size: 36px;
-line-height: 1.1;
-text-align: center;
-text-transform: capitalize;
 }
 
 
@@ -119,25 +98,7 @@ background-color: var(--body-color);
 background-color: var(--background-team-color);
 }
 
-                                     /* Features 1*/
-
-.features-title {
-color: var(--title-text-color) ; 
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-}
-
-.features-item-text{
-    color: var(--accent-color);
-font-family: 'Roboto',sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-}
+                                     
 
                                    /* Button */
 
@@ -192,25 +153,56 @@ letter-spacing: 0.04em;
 cursor: pointer;
 }
 
-                                        /* Section 2 */
- .section-title{
-color: var(--title-text-color);
+                             /* Section 1 */
+
+.container .hero-title {
+color: var(--main-color);
 font-family: 'Roboto',sans-serif;
-font-size: 36px;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.11;
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
 letter-spacing: 0.02em;
 }
-        
-.services {
-color: var(--accent-color);
+
+
+                               /* Section 2 */
+.features-title{
+color: var(--title-text-color);
 font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.features-item-text{
+    color: var(--accent-color);
+    font-family: 'Roboto',sans-serif;
+font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.02em;
 }
                                 /* Section 3 */
+
+.section-title {
+    color: var(--title-text-color);
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+ 
+
+                                 /* Section 4 */
 .section-title-team{
 font-family: 'Roboto';
 font-style: normal;
@@ -222,20 +214,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 
-.desc {
-color: var(--accent-color);
-font-family: 'Roboto',sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
- }
-
- .team-list-item{
-    background-color: var(--main-color);
- }
-
- .subtitle {
+.subtitle {
 color: var(--title-text-color);
 font-family: 'Roboto',sans-serif;
 font-style: normal;
@@ -243,6 +222,37 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+}
+
+.desc {
+color: var(--accent-color);
+font-family: 'Roboto',sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.team-list-item{
+    background-color: var(--main-color);
+ }
+
+                                   /* Section portfolio */
+
+.section-title-portfolio{
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.services {
+color: var(--accent-color);
+font-family: 'Roboto',sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
 }
                                /* Footer */
 .footer {
