@@ -12,6 +12,11 @@
 background-color: var(--main-color);
 }
 
+.address {
+    font-style: normal;
+    list-style: none;
+}
+
 body {
 background-color: #fff;
 color: var(--accent-color);
