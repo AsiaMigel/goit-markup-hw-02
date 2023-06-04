@@ -159,8 +159,8 @@ background-color: var(--button-hover);
 }
 
 .button {
-color: var(--main-color);
-background-color: var(--primary-blue-color);
+color: var(--primary-blue-color);
+background-color: var(--background-team-color);
 font-family: 'Roboto',sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -219,6 +219,7 @@ font-size: 36px;
 line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
+text-transform: capitalize;
 }
 
 .desc {
