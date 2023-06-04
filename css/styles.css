@@ -198,6 +198,7 @@ letter-spacing: 0.02em;
 
                                  /* Section 4 */
 .section-title-team{
+    color: var(--title-text-color);
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
