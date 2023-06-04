@@ -92,13 +92,13 @@ background-color: var(--title-text-color);
 }
 
 .hero-title {
-color: var(--main-color);
-font-weight: 600;
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-}
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    }
 
                                        /* Section 1*/
 .section-title {
@@ -119,7 +119,7 @@ background-color: var(--body-color);
 background-color: var(--background-team-color);
 }
 
-                                     /* Features */
+                                     /* Features 1*/
 
 .features-title {
 color: var(--title-text-color) ; 
