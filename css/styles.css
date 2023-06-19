@@ -210,10 +210,17 @@ align-items: center;
 /*-----------BENEFITS-------------*/
 
 .benefits {
-    padding: 120px;
+    padding: 120px 0;
 }
 
-.benefitst-title {}
+.benefitst-title {
+}
+
+.visually-hidden{
+     visibility: hidden;
+     pointer-events: none;
+     position: absolute;   
+}
 
 .benefits-list {
     display: flex;
@@ -276,7 +283,7 @@ border-radius: 0px 0px 4px 4px;
 .team-item-img {}
 
 .team-description{
-    margin: 32px 16px;
+    padding: 32px 16px;
 }
 
 .team-item-name {
@@ -293,7 +300,7 @@ border-radius: 0px 0px 4px 4px;
 /*--------------MENU-------------*/
 
 .portfolio {
-    padding: 96px 0 72px;
+    padding: 96px 0 120px;
 }
 
 .portfolio-list {
@@ -353,6 +360,16 @@ border-radius: 0px 0px 4px 4px;
 .footer {
     background-color: var(--title-color);
     padding: 100px 0;
+}
+
+.logo-footer{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-link{
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .f-span {
